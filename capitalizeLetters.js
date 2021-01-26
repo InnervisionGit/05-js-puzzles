@@ -11,7 +11,7 @@ function capitalizeLettersOne(str) {
   return strArr.join(' ');
 }
 console.log(capitalizeLettersOne('inner vision java script'));
-////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////
 function capitalizeLettersTwo(str) {
   return str
     .toLowerCase()
