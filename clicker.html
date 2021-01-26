@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Clicker</title>
+    <meta name="description" content="" />
+    <style></style>
+  </head>
+  <body>
+    <button>Click!</button>
+
+    <script>
+      const counter = {
+        cnt: 0,
+        inc: () => (counter.cnt++, console.log(counter.cnt)),
+      };
+      const button = document.getElementsByTagName('BUTTON')[0];
+      button.addEventListener('click', counter.inc);
+    </script>
+  </body>
+</html>
